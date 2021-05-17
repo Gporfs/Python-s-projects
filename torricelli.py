@@ -1,0 +1,6 @@
+s0=float(input('posição inicial:'))
+v0=float (input('velocidade inicial:'))
+a=float (input('aceleração:'))
+s=float (input('posição final:'))
+torricelli= v0**2+2*a*(s-s0)
+print('Velocidade ao quadrado=',torricelli)
